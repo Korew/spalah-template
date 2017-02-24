@@ -159,11 +159,12 @@ p {
 }
 
 .lcol img {
-	width: 697px;
+	width: 696px;
 	margin: 16px 0 8px 0;
 }
 
 .rcol {
-	width: 232px;
+	width: 325px;
 	margin-left: 51px;
+	outline: 1px solid #000;
 }
