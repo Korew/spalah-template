@@ -118,17 +118,17 @@ nav > ul > li > a:hover {
 main {
 	width: 978px;
 	margin: 0 auto;
-	display: flex;
 }
 
 .horizontal-divider {
 	height: 1px;
 	width: 100%;
 	border-top: 1px dotted #cacaca;
+	margin-top: 25px;
 }
 
 .lcol {
-	width: 100%;
+	margin-right: 280px;
 }
 
 h1 {
@@ -152,19 +152,164 @@ h3 {
 	margin: 37px 0 14px 0;
 }
 
+h4 {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.8;
+	text-transform: uppercase;
+	margin-top: 24px;
+}
+
 p {
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 1.5;
 }
 
-.lcol img {
-	width: 696px;
+.lcol > img {
+	width: 100%;
 	margin: 16px 0 8px 0;
 }
 
+.lcol > ul {
+	list-style: none;
+	margin-top: 18px;
+	margin-bottom: 25px;
+}
+
+.lcol > ul > li {
+	color: #808080;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.8;
+	margin-top: 8px;
+}
+
+.lcol > ul > li > span {
+	color: #808080;
+	margin-right: 15px;
+}
+
+.lcol > ul > li > a {
+	color: #24b5e1;
+}
+
+.lcol > .gallery-holder {
+	margin-top: 10px;
+	margin-bottom: 18px;
+}
+
+.lcol > .gallery-holder > img {
+	width: 215px;
+	margin-right: 20px;
+}
+
+.lcol > .gallery-holder > img:last-child {
+	margin-right: 0;
+}
+
+.lcol > ol {	
+	list-style: none;
+	margin-top: 18px;
+	margin-bottom: 17px;
+}
+
+.lcol > ol > li {
+	color: #323232;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.8;
+	margin-top: 8px;
+}
+
+table {
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 1.8;
+	margin-top: 13px;
+	width: 100%;
+	color: #323232;
+}
+
+table > tbody > tr:last-child {
+	height: 40px;
+}
+
+table > tbody > tr > th:first-child {
+	width: 67px;
+}
+
+th, td {
+	text-align: left;
+	font-weight: 400;
+	padding: 6px 12px;
+}
+
+th {
+	color: #7d7d7d;
+}
+
+tr > td:last-child {
+	text-align: right;
+}
+
+.blue-text {
+	color: #24b6e1;
+}
+
+td > a {
+	color: #24b6e1;
+}
+
+.lcol > .tabs {
+	margin-top: 20px;
+}
+
+.lcol > .tabs input {
+	display: none;
+}
+
+.tabs > .label-holder {
+	width: 100%;
+}
+
+.label-holder > .mylabel {
+	margin-right: 4px;
+	background-color: #e9e9e9;
+	padding: 10px;
+	border-radius: 4px 4px 0 0;
+}
+
+
+.lcol > .tabs > .tab-content {
+	display: none;
+}
+
+.input-tab[data-check="1"]:checked ~
+.tab-content[data-check="1"] {
+	display: block;
+}
+
+.input-tab[data-check="2"]:checked ~
+.tab-content[data-check="2"] {
+	display: block;
+}
+
+.input-tab[data-check="1"]:checked ~
+.mylabel[data-check="1"] {
+	background-color: #23b5e1;
+}
+
+.input-tab[data-check="2"]:checked ~
+.mylabel[data-check="2"] {
+	background-color: #23b5e1;
+}
+
+
+
 .rcol {
-	width: 325px;
-	margin-left: 51px;
+	width: 229px;
 	outline: 1px solid #000;
+	float: right;
+	min-height: 800px;
 }
